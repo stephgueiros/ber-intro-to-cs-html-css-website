@@ -1,0 +1,58 @@
+body {
+    background-color: #1b5e0f;
+    margin: 0px;
+  }
+  body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Roboto Mono', serif;
+  font-weight: 300;
+  
+}
+
+  .navbar {
+    /*background-color: #1b5e0f;*/
+    overflow: hidden;
+  }
+  /*Navigation bar links*/
+.navbar a {
+    display: block;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: middle;
+    color: rgb(9, 4, 4);
+    font-weight: bold;
+  }
+  /*Hovering over navigation bar*/
+.navbar a:hover {
+    background-color: #1c23e9;
+    color: rgb(238, 16, 16);
+  }
+  
+  h1 {text-align: center;}
+  h3 {text-align: center;
+    color: rgb(238, 16, 16)
+}
+/*Introduction*/
+.summary {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  
+
+  .intro {
+    height: 100%;
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
